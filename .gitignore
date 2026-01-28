@@ -1,0 +1,36 @@
+# Go build outputs
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test / coverage
+*.test
+*.out
+coverprofile
+coverage.*
+
+gateway
+
+# Go workspace / deps
+go.work
+go.work.sum
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets / local configs
+.env
+.env.*
+*.pem
+*.key
