@@ -12,8 +12,6 @@ bin/
 coverprofile
 coverage.*
 
-gateway
-
 # Go workspace / deps
 go.work
 go.work.sum
